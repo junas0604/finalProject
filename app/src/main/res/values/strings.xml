@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Gutib Junas Nazarito Final Project</string>
+    <string name="welcome_to_the_homepage">Welcome to the Homepage!</string>
+    <string name="add_reflection">Add Reflection</string>
+    <string name="set_reminder">Set Reminder</string>
+    <string name="track_progress">Track Progress</string>
+    <string name="categorize_reflection">Categorize Reflection</string>
+    <string name="exit">Exit</string>
+    <string name="add_your_reflection_here">Add your reflection here!</string>
+    <string name="reflection">Reflection</string>
+    <string name="submit">Submit</string>
+    <string name="back">Back</string>
+    <string name="mood">Mood</string>
+    <string name="Mood">Mood</string>
+    <string name="set_reminder_for_daily_mindfulness">Set Reminder for Daily Mindfulness!</string>
+    <string name="set_date">Set Date</string>
+    <string name="set_a_time">Set a Time</string>
+    <string name="setDate">Set Date</string>
+    <string name="setTime">Set Time</string>
+
+    <style name="Inter" parent="TextAppearance.AppCompat.Button">
+        <item name="fontFamily">Inter</item>
+    </style>
+
+</resources>

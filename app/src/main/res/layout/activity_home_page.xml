@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:text="@string/welcome_to_the_homepage" style="@style/Inter"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/AddReflection"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_marginTop="160dp"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_button"
+            android:text="@string/add_reflection"
+            android:drawableStart="@drawable/add"
+            style="@style/Inter"/>
+
+        <Button
+            android:id="@+id/SetReminder"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_button"
+            android:text="@string/set_reminder"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/reminder"
+            style="@style/Inter"/>
+
+        <Button
+            android:id="@+id/TrackProgress"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_button"
+            android:text="@string/track_progress"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/tracking"
+            style="@style/Inter"/>
+
+        <Button
+            android:id="@+id/Categorize"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_button"
+            android:text="@string/categorize_reflection"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/category"
+            style="@style/Inter"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Exit"
+        android:background="@drawable/rounded_button"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/exit"
+        style="@style/Inter"/>
+
+</RelativeLayout>
