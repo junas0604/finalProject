@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".SetReminderForDailyMind">
 
     <TextView
@@ -11,7 +11,8 @@
         android:layout_height="wrap_content"
         android:textSize="35sp"
         android:textAlignment="center"
-        android:text="@string/set_reminder_for_daily_mindfulness" style="@style/Inter"
+        android:text="@string/set_reminder_for_daily_mindfulness"
+        style="@style/Inter"
         android:textStyle="bold"
         android:textAllCaps="false"/>
 

@@ -3,18 +3,65 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgrounda"
     tools:context=".CategorizeReflection">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="29sp"
+        android:textAlignment="center"
+        android:text="@string/categorize_your_reflection_here"
+        style="@style/Inter"
+        android:textAllCaps="false"
+        android:textStyle="bold"/>
+
+
+    <EditText
+        android:id="@+id/searchMoodInput"
+        android:layout_width="330dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:textColor="@color/black"
+        android:autofillHints=""
+        android:hint="@string/enter_mood_that_you_want_to_search"
+        android:inputType="text"
+        android:textSize="25sp"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_marginTop="180dp"
+        >
 
-        <Button
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/reflectionOutput"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:text="@string/Mood"
+            android:layout_gravity="center"
+            style="@style/Inter"
+            android:textAllCaps="false"/>
 
     </LinearLayout>
+
+
+    <Button
+        android:id="@+id/back"
+        android:background="@drawable/rounded_button"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:layout_marginBottom="20dp"
+        android:text="@string/back"
+        style="@style/Inter"/>
 
 </RelativeLayout>
