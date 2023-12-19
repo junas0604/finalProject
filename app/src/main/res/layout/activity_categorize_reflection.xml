@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/backgrounda"
+    android:background="@drawable/cateback"
     tools:context=".CategorizeReflection">
 
-    <TextView
+
+   <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="29sp"
@@ -16,8 +16,6 @@
         style="@style/Inter"
         android:textAllCaps="false"
         android:textStyle="bold"/>
-
-
     <EditText
         android:id="@+id/searchMoodInput"
         android:layout_width="330dp"
@@ -49,7 +47,6 @@
             android:textAllCaps="false"/>
 
     </LinearLayout>
-
 
     <Button
         android:id="@+id/back"

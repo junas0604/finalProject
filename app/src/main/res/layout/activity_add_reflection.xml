@@ -1,9 +1,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/refback"
+    android:background="@drawable/backadd"
     tools:context=".AddReflection">
 
     <TextView
@@ -26,11 +25,11 @@
             android:layout_width="330dp"
             android:layout_height="70dp"
             android:layout_marginTop="140dp"
+            android:textColor="@color/black"
             android:hint="@string/mood"
             android:textSize="25sp"
             android:layout_gravity="center"
             android:inputType="text"
-            android:textColor="#FFFFFF"
             android:autofillHints="" />
 
         <TextView
@@ -39,7 +38,9 @@
             android:text="@string/Mood"
             android:layout_gravity="center"
             style="@style/Inter"
-            android:textAllCaps="false"/>
+            android:textAllCaps="false"
+            android:textStyle="bold"/>
+
 
         <EditText
             android:id="@+id/reflectionInput"
@@ -47,7 +48,7 @@
             android:layout_height="70dp"
             android:layout_gravity="center"
             android:layout_marginTop="40dp"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/black"
             android:autofillHints=""
             android:hint="@string/reflection"
             android:inputType="text"
@@ -63,7 +64,9 @@
             android:autofillHints=""
             android:inputType="text"
             android:text="@string/reflection"
-            tools:ignore="TextViewEdits,TouchTargetSizeCheck" />
+            tools:ignore="TextViewEdits,TouchTargetSizeCheck"
+            android:textStyle="bold"/>
+
 
     </LinearLayout>
     <Button

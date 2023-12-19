@@ -20,6 +20,7 @@ class CategorizeReflection : AppCompatActivity() {
 
         searchReflections("")
 
+
         binding.searchMoodInput.addTextChangedListener { text ->
             searchReflections(text.toString())
         }
@@ -61,4 +62,6 @@ class CategorizeReflection : AppCompatActivity() {
         binding.reflectionOutput.layoutManager = LinearLayoutManager(this)
         binding.reflectionOutput.adapter = adapter
     }
+
+
 }
