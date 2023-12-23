@@ -11,7 +11,7 @@
     <string name="submit">Submit</string>
     <string name="back">Back</string>
     <string name="mood_label">Mood</string>
-    <string name="Mood">Mood</string>
+    <string name="Mood">Mood or Title</string>
     <string name="set_reminder_for_daily_mindfulness">Set Reminder for Daily Mindfulness</string>
     <string name="set_date">Set Date</string>
     <string name="set_a_time">Set a Time</string>
@@ -22,6 +22,9 @@
     <string name="reflection">Enter your Reflection</string>
     <string name="enter_mood_that_you_want_to_search">Enter Mood that you want to Search</string>
     <string name="see_your_daily_progress_here">See Your Daily Progress Here</string>
+    <string name="enter_title_or_mood">Enter Title or Mood</string>
+    <string name="enter_mood_or_title">Enter Mood or Title</string>
+    <string name="add_journal">Add Journal or Reflection</string>
 
     <style name="Inter" parent="TextAppearance.AppCompat.Button">
         <item name="fontFamily">Inter</item>

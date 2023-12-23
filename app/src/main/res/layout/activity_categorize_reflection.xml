@@ -24,7 +24,7 @@
         android:layout_marginTop="90dp"
         android:textColor="@color/black"
         android:autofillHints=""
-        android:hint="@string/enter_mood_that_you_want_to_search"
+        android:hint="@string/enter_mood_or_title"
         android:inputType="text"
         android:textSize="25sp"
         tools:ignore="DuplicateSpeakableTextCheck" />
